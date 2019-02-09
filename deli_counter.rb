@@ -14,6 +14,8 @@ def take_a_number(array_line, name)
     number = 1
     array_line.each do |name, number|
     puts "Welcome, #{name}. You are number #{number}"
+    number += 1
   end
 end
-  
+
+def now_serving 
