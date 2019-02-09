@@ -2,15 +2,13 @@
 
 katz_deli = ["Ada", "Katz"]
 
-def line(array_line)
-  if array_line.length >= 1
-   array_line.each_with_index(1) do |name, number|
-     puts "#{name} , #{number}"
-  end
-  else
-    puts "The line is currently empty."
-  end
-end
+def line_simple(array_line)
+  current_line = "The line is currently:"
+  array.each.with_index(1) do |value, number|  
+    current_line << " #{number}. #{value},"    
+  end 
+  puts current_line
+end 
 
 def take_a_number(array_line, name)
     array_line.push(name)
