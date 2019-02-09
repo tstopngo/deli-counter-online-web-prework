@@ -6,9 +6,9 @@ def line(array_line)
   if array_line.length >= 1
    array_line.each_with_index(1) do |name, number|
      puts "#{name} , #{number}"
-  end
   else
     puts "The line is currently empty."
+  end
 end
 
 def take_a_number(array_line, name)
