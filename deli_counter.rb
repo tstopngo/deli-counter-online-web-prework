@@ -11,9 +11,9 @@ def line(array_line)
 end
 
 def take_a_number(array_line, name)
-    place = 1
-    array_line.each do |name, place|
-  
-    place += 1
-  puts "Welcome, #{name}. You are number #{number}"
+    number = 1
+    array_line.each do |name, number|
+    puts "Welcome, #{name}. You are number #{number}"
+  end
+end
   
