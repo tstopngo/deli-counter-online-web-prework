@@ -15,7 +15,6 @@ def take_a_number(array_line, name)
     array_line.push(name)
     array_line.each_with_index do |name|
     puts "Welcome, #{name}. You are number #{array.length} in line."
-
 end
 
 def now_serving (array_assigned)
