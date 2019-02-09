@@ -6,7 +6,7 @@ def line(array_line)
   if array_line.length > 0
   current_line = "The line is currently:"
   array_line.each.with_index(1) do |name, number|  
-    current_line << " #{number}. #{value}"    
+    current_line << " #{number}. #{name}"    
   end 
   puts current_line
 else
