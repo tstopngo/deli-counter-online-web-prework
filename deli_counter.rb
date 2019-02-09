@@ -4,7 +4,8 @@ katz_deli = ["Ada", "Katz"]
 
 def line(array_line, number)
   if array_line.length > 0
-   puts take_a_number(array_line)
+   array_line.each_with_index(1) do
+     
   else
     puts "The line is currently empty."
   end
