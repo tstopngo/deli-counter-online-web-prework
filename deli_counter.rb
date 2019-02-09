@@ -21,7 +21,7 @@ def now_serving (array_assigned)
     array_assigned.each do |name|
     puts "Currently serving #{name}."
     array_assigned.shift
-     end
+    end
   else 
     puts "There is nobody waiting to be served!"
   end
