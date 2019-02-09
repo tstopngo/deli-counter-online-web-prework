@@ -2,7 +2,7 @@
 
 katz_deli = ["Ada", "Katz"]
 
-def line(array_line)
+def line(array_line, number)
   if array_line.length > 0
    puts take_a_number(array_line)
   else
