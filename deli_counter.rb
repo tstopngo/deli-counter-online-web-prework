@@ -4,7 +4,7 @@ katz_deli = ["Ada", "Katz"]
 
 def line(array_line)
   if array_line.length > 0
-   
+   puts now_serving
   else
     puts "The line is currently empty"
   end
@@ -21,7 +21,12 @@ def take_a_number(array_line, name)
 end
 
 def now_serving (array_assigned)
-  array_assigned.each do |name|
+  if array_assigned.length > 0
+    array_assigned.each do |name|
     puts "Currently, serving #{name}!"
     array_line.shift
-  
+  else 
+    puts "There is nobody waiting to be served!"
+    end
+  end
+end
