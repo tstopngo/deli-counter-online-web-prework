@@ -19,7 +19,6 @@ end
 
 def now_serving (array_assigned)
   if array_assigned.length > 0
-    array_assigned.each do |name|
     puts "Currently serving #{array_assigned[0]}."
     array_assigned.shift
     end
