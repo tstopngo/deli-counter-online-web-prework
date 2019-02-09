@@ -5,7 +5,7 @@ katz_deli = ["Ada", "Katz"]
 def line(array_line)
   current_line = "The line is currently:"
   array_line.each.with_index(1) do |value, number|  
-    current_line << " #{number}. #{value}."    
+    current_line << " #{number}. #{value}"    
   end 
   puts current_line
 end 
