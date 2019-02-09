@@ -3,11 +3,14 @@
 katz_deli = ["Ada", "Katz"]
 
 def line(array_line)
+  if array_line.length > 0
   current_line = "The line is currently:"
   array_line.each.with_index(1) do |value, number|  
     current_line << " #{number}. #{value}"    
   end 
   puts current_line
+else
+  puts "The line is currently empty."
 end 
 
 def take_a_number(array_line, name)
