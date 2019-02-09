@@ -4,8 +4,8 @@ katz_deli = ["Ada", "Katz"]
 
 def line(array_line)
   if array_line.length > 0
-   array_line.each_with_index(1) do
-     
+   array_line.each_with_index(1) do |name, number|
+     puts "#{name} , #{number}"
   else
     puts "The line is currently empty."
   end
