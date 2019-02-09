@@ -2,7 +2,7 @@
 
 katz_deli = ["Ada", "Katz"]
 
-def line(array_line, number)
+def line(array_line)
   if array_line.length > 0
    array_line.each_with_index(1) do
      
