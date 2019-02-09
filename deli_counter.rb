@@ -9,7 +9,6 @@ def line(array_line)
   end
   else
     puts "The line is currently empty."
-  end
 end
 
 def take_a_number(array_line, name)
