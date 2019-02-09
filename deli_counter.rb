@@ -3,7 +3,7 @@
 katz_deli = []
 
 def line(array_line)
-  if array_names.length > 0
+  if array_line.length > 0
     array_names.each do |place|
     puts "Your place in line is #{place}"
   else
