@@ -6,6 +6,7 @@ def line(array_line)
   if array_line.length > 0
    array_line.each_with_index(1) do |name, number|
      puts "#{name} , #{number}"
+  end
   else
     puts "The line is currently empty."
   end
@@ -24,4 +25,5 @@ def now_serving (array_assigned)
     end
   else 
     puts "There is nobody waiting to be served!"
+  end
 end
